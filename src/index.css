@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root{
+  --container-width-lg: 70%;
+  --container-width-md: 90%;
+
+  --transition: all 300ms ease;
+}
+body {
+  margin: 0;
+  font-family: 'Volkart', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  max-width: 1046px;
+  padding: 0 20px;
+  margin: 0px auto;
+}
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

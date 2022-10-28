@@ -1,0 +1,131 @@
+.about{
+    background: rgb(65,172,200);
+    background-size: cover;
+    background: linear-gradient(126deg, rgb(103,104,207) 29%, rgb(125,105,199) 84%);
+    height: fit-content;
+    padding: 8% 0;
+    overflow: hidden;
+}
+.about__container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-template-areas: 
+    "i h"
+    "t t";
+    justify-content: space-between;
+    gap: 8rem;
+}
+.about__left{
+    grid-area: i;
+}
+.about__right{
+    grid-area: h;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+h4{
+    color: rgb(226, 226, 226);
+    font-size: 35px;
+    line-height: 140%;
+}
+
+button{
+    margin: 25px 0 35px 0;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    border: white solid 2px;
+    padding: 20px 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+button:hover{
+    color:white;
+    background: transparent;
+}
+.running_header{
+    text-align: center;
+    align-items: center;
+    grid-area: t;
+}
+@media screen and (max-width:1024px) { 
+    .about{
+        height: fit-content;
+    }
+    .about__container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "i"
+        "h"
+        "t";
+        gap: 0;
+        max-height:min-content;
+        padding-bottom:20px ;
+    }
+    .about__left{
+        width: 50%;
+        margin: auto;
+    }
+    h1{
+        font-size: 33px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .about__right{
+        text-align:center;
+
+    }
+    
+}
+@media screen and (max-width:600px) { 
+    .about__container{
+        grid-template-columns: 1fr;
+    
+    }
+    .about__right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 27px;
+    }
+    h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    button{
+        font-size: 14px;
+        font-weight: 600;
+        border: white solid 2px;
+        padding: 15px 30px;
+        border-radius: 100px;
+    }
+}
+@media screen and (max-width:397px) {
+    h1{
+        text-align: center;
+        font-size: 23px;
+    }
+    h4{
+        text-align: center;
+        font-size: 17px;
+    }
+    button{
+        font-size: 12px;
+        font-weight: 600;
+        border: white solid 2px;
+        padding: 10px 20px;
+        border-radius: 60px;
+    }
+}

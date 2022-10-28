@@ -1,0 +1,18 @@
+footer{
+    bottom: 0;
+    background-color: black;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+small{
+    font-weight: 600;
+    color: rgb(108, 108, 108);
+}
+@media screen and (max-width: 600px){
+    small{
+        font-size: 14px;
+    }
+}
