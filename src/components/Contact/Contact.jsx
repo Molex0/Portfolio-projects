@@ -13,8 +13,8 @@ const Contact =() => {
               <div className="contact_wrapper">
                   <a href="https://www.instagram.com/iamd0ne/" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
                   <a href="https://www.linkedin.com/in/jeck-rassel-6b14b7184/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn/></a>
-                  <a href="https://github.com/" target="_blank" rel="noreferrer noopener"><FaTelegramPlane/></a>
-                  <a href="https://github.com/" target="_blank" rel="noreferrer noopener"><AiOutlineMail/></a>
+                  <a href="https://telegram.me/molex_0" target="_blank" rel="noreferrer noopener"><FaTelegramPlane/></a>
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNxNtRfCHLkGfNKDkFkLdHFRbwBmmVjsRnRbkmLwQfrKSLcXzHmDzSqpmWCXWqRTmZrVtL" target="_blank" rel="noreferrer noopener"><AiOutlineMail/></a>
               </div>
             </div>
         </div>

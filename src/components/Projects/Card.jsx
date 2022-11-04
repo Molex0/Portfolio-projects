@@ -8,7 +8,7 @@ const Card = ({id, image, title, link}) => {
     <Parallax scale={[0.8,1]}>
       <div className='card__container'>
           <div className={`${'p'+id}`}>
-              <a href={link}>
+              <a href={link} target="_blank" rel="noreferrer noopener">
                   <img className='project__image' src={image} alt="project" />
               </a>
           </div>
