@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import MyPhoto from '../../img/myPhoto.png'
-import Resume from './pdf1.pdf'
+import Resume from './CV.pdf'
 import  RunningString from './RunningString'
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
               I'am third grade student at the KPI who's looking for the first job as a Frontend Developer
               </h4>
             </div>
-          <button className='about-btn' type="submit" onClick={onButtonClick}>Download My Resume</button>
+          <button className='about-btn' type="submit" onClick={onButtonClick}>Download My CV</button>
         </div>
         <h1 className='running_header'>I Have Already Worked With</h1>
       </div>
