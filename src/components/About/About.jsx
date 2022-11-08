@@ -11,7 +11,7 @@ const About = () => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = Resume;
+            alink.download = "CV.pdf";
             alink.click();
         })
     })

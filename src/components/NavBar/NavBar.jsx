@@ -26,7 +26,7 @@ const NavBar = () => {
         <div className='container navbar__container'>
             <div className="navbar-icons">
                 <a href="https://www.instagram.com/iamd0ne/" target="_blank" rel="noreferrer noopener"><AiOutlineInstagram/></a>
-                <a href="https://www.linkedin.com/in/jeck-rassel-6b14b7184/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn/></a>
+                <a href="https://www.linkedin.com/in/illia-havrylyuk/" target="_blank" rel="noreferrer noopener"><FaLinkedinIn/></a>
                 <a href="https://github.com/Molex0/Portfolio-projects" target="_blank" rel="noreferrer noopener"><AiOutlineGithub/></a>
                 <a href="https://telegram.me/molex_0" target="_blank" rel="noreferrer noopener"><FaTelegramPlane/></a>
             </div>
